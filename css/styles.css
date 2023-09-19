@@ -1,0 +1,105 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+ :root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #000; /*navbar link*/
+	--f7-navbar-text-color:#000;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+	--color-negro:#000;
+	--color-gris:#f2eef2;
+	--color-gris-claro:#E6E8EA;
+	--color-amarillo:#F2D785;
+    --color-azul:#378693;
+}
+ body{
+    font-family: 'Poppins', sans-serif;
+    color: #201a1a;
+ }
+
+ h1,h2,h3,h4,h5,h6{
+    margin: 10px 0;
+ }
+
+ .img-fluid{
+    max-width: 100%;
+ }
+
+ .img-corner{
+    border-radius: 50%;
+ }
+
+ #panel-menu .perfil{
+    margin-top: 35px;
+    margin-left: 15px;
+
+ }
+
+ .perfil h6{
+    font-size: 15px;
+    font-weight: 400;
+ }
+
+ #menu-list.list{
+    font-size: 14px;
+    font-weight: 300;
+ }
+
+ #menu-list span{
+    color: #F2D785;
+ }
+
+ .block-title{
+    color: var(--color-azul);
+ }
+
+/* Estilos para la barra de navegación en la parte inferior */
+.toolbar.toolbar-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999; /* valor del índice z*/
+    height: 7%;
+  }
+
+  .toolbar.toolbar-top {
+    position: fixed;
+   
+  }
+
+  .searchbar .searchbar-inner {
+    position: fixed;
+  }
+
+  .toolbar-inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .toolbar-inner a {
+    margin: 25px ; /* Ajusta el valor según tu preferencia */
+  }
+
+  /*Color iconos*/
+
+  .material-icons {
+    color: black;
+    
+  }
+
+  .material-icons-outlined{
+    color: black;
+  }
+
+  .item-link .sw-color{
+    color: black;
+  }
+
+  /*Card Propiedades*/
+
+.card-products .card{
+    text-align: center;
+    min-height: 150px;
+}
